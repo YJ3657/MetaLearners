@@ -5,4 +5,4 @@ import Notes from './notesSchema.js';
 import Definition from './definitionSchema.js';
 import Contents from './contentsSchema.js';
 
-export { User, Student, Question, Notes, Definition, Contents };
+export default { User, Student, Question, Notes, Definition, Contents };
