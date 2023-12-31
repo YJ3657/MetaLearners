@@ -17,11 +17,6 @@ const SignUpModal = ({ show, onHide }) => {
         <Modal.Body>
           <Form>
             <Form.Group className="mb-3">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter your name" />
-            </Form.Group>
-
-            <Form.Group className="mb-3">
               <Form.Label>Email address</Form.Label>
               <Form.Control type="email" placeholder="Enter email" />
             </Form.Group>

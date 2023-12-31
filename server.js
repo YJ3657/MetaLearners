@@ -4,11 +4,11 @@ import express from 'express';
 import userRouter from './routers/userRouter.js';
 
 const app = express();
-const port = 3001
+const port = 3000;
 
 app.use(express.json());
 
-app.use('/users', userRouter);
+app.use('/api/users', userRouter);
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
