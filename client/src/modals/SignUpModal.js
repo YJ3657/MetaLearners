@@ -1,7 +1,11 @@
-import React from 'react';
+import { React, useState } from 'react';
 import { Modal, Button, Form, Container } from 'react-bootstrap';
 
 const SignUpModal = ({ show, onHide }) => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+
   return (
     <Modal
       show={show}

@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt';
-import User from '../models/User.js';
+import User from '../models/userSchematic.js';
 
 export const userSignUpController = async (req, res) => {
   const { userId, password, confirmPassword } = req.body;
